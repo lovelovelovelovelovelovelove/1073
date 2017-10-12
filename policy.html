@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<!--<title>W3.CSS Template</title>-->
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="BQGc8RIMxB-J5K7I2cmhZnoaNp6CxwQcOvgFz0vlnJ4" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+</style>
+<body class="w3-content w3-white" style="max-width:1500px;">
+
+<!-- Header with Slideshow -->
+<header class="w3-display-container w3-center">
+  
+</header>
+
+<!-- The App Section -->
+<div class="w3-padding-64 w3-white w3-center">
+        <h1>Private Policy </h1>
+ <p>This privacy policy has been compiled to better serve those who are concerned 
+     with how their 'Personally Identifiable Information' (PII) is being used online. 
+    Please read our privacy policy carefully to get a clear understanding of how we collect,
+    use, protect or otherwise handle your Personally Identifiable Information in accordance
+    with our application.
+    </p>
+    <h4>What personal information do we collect from the people that use our app?</h4>
+    <p>When using the app, as appropriate, you may be asked to enter your 
+        name, email address, phone number, suburb and City.
+        Location is sent automatically to our servers, other details to help you with your 
+        experience.</p>
+
+    <h4>When do we collect information?</h4>
+    <p>Photos, name, email address, phone number, suburb and City are collected when you first use the 
+        and at any other time, user decides to updates their information. User location is sent to our 
+        servers everytime you open the app, this is to give you a superior experience.
+    </p>
+    <h4>How do we use your information?</h4>
+    <p>Your information is used to help create a superior experience by allowing the driver or the 
+        passenger know your picture before they pick you up; know your location to they can wait to
+    pick you up, or know when you're almost there. Driver document pictures are collected your inspection
+reasons. We ensure that drivers who use our platform abide by the laws and regulations of this nation.
+A driver cannot use the platform without the proper documentations. Documentation is regularly checked.
+
+</p>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
+
+<!-- Clarity Section -->
+<div class=" w3-light-grey">  
+     <p><span class="w3-large"><a href="mailto:anelesiwawa@gmail.com" target="_blank" class="w3-hover-text-green">Join the team</a></span> 
+	   <div class="w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <!--<i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+	 </p>
+</div>
+
+ <img src="/Logo.PNG" >
+
+ <meta name="google-site-verification" content="BQGc8RIMxB-J5K7I2cmhZnoaNp6CxwQcOvgFz0vlnJ4" />
+  
+  
+ 
+</div>
+</footer>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
