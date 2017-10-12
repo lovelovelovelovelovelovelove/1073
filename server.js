@@ -14,7 +14,7 @@ app.use(compression()); //Compress all routes
 app.use(helmet());
 
 app.use(express.static(__dirname + '/images'));
-app.get('/passenger', (req,res) => {
+app.get('/', (req,res) => {
     res.setHeader('Content-Type', 'text/html');
     res.send( cache[0] );
 });
